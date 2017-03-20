@@ -4,7 +4,7 @@ import './App.css';
 import AceEditor from 'react-ace';
 import ReactMarkdown from 'react-markdown';
 
-class App extends Component {
+export default class MarkdownEditor extends Component {
   constructor(props) {
     super(props);
 
@@ -38,5 +38,3 @@ class App extends Component {
     );
   }
 }
-
-export default App;
