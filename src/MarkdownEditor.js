@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
-
 import AceEditor from 'react-ace';
 import ReactMarkdown from 'react-markdown';
+
+import 'brace/mode/markdown';
+import 'brace/theme/github';
 
 export default class MarkdownEditor extends Component {
   constructor(props) {
@@ -23,6 +25,7 @@ export default class MarkdownEditor extends Component {
         <div className="editor">
           <AceEditor
             mode="markdown"
+            theme="github"
             fontSize="16"
             value={ this.state.code }
             onChange={ this.onChangeCode }
