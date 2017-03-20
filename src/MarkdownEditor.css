@@ -1,0 +1,11 @@
+.editor {
+  width: 48%;
+  float: left;
+}
+
+.MarkdownRendering {
+  width: 48%;
+  padding-left: 3px;
+  border-left: 1px solid;
+  float: left;
+}

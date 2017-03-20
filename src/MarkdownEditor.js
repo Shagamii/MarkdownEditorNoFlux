@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './MarkdownEditor.css';
 import AceEditor from 'react-ace';
 import ReactMarkdown from 'react-markdown';
 
