@@ -26,6 +26,7 @@ export default class MarkdownEditor extends Component {
           <AceEditor
             mode="markdown"
             theme="github"
+            height='1000px'
             fontSize="16"
             value={ this.state.code }
             onChange={ this.onChangeCode }

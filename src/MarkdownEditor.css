@@ -4,6 +4,7 @@
 }
 
 .MarkdownRendering {
+  height: 1000px;
   width: 48%;
   padding-left: 3px;
   border-left: 1px solid;
